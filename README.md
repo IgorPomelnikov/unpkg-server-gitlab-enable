@@ -48,6 +48,7 @@ These values can be set on the system environment when starting the unpkg `serve
 | `ORIGIN`               | optional                                         | `https://unpkg.com`          |
 | `CLOUDFLARE_EMAIL`     | optional                                         | `null`                       |
 | `CLOUDFLARE_KEY`       | optional                                         | `null`                       |
+| `GITLAB_REGISTRY`      | optional - enable work with GitLab npm registry  | `null`                       |
 
 ## Build Options
 
@@ -61,6 +62,7 @@ Use a `.env` file to set the following options when building the app with `npm r
 ## Documentation
 
 Please visit [the UNPKG website](https://unpkg.com) to learn more about how to use it.
+Visit [GitLab docs](https://docs.gitlab.com/ee/api/packages/npm.html) to learn more about npm rigestry in GitLab.
 
 ## Sponsors
 
