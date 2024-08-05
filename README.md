@@ -49,6 +49,7 @@ These values can be set on the system environment when starting the unpkg `serve
 | `CLOUDFLARE_EMAIL`     | optional                                               | `null`                       |
 | `CLOUDFLARE_KEY`       | optional                                               | `null`                       |
 | `GITLAB_REGISTRY`      | optional - enable work with GitLab npm scoped packages | `null`                       |
+| `CACHE_CONTROL`        | optional - overrides response header                   | `public,max-age=31536000`    |
 
 ## Build Options
 
